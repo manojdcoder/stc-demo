@@ -1,6 +1,7 @@
 # sencha
 **/temp
 /ext
+/build
 
 # manifest
 **/*.json
