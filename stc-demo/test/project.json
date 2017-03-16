@@ -1,0 +1,25 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "sandbox": true,
+            "globals": "*",
+            "directory": "E2E",
+            "page": "http://localhost:1841/stc-demo/",
+            "name": "E2E"
+        },
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "sandbox": false,
+            "globals": "*",
+            "directory": "Unit",
+            "name": "Unit",
+            "page": ""
+        }
+    ]
+}

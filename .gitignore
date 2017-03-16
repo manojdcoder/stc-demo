@@ -6,6 +6,8 @@
 # manifest
 **/*.json
 **/*.jsonp
+!**/data/*.json
+!**/project.json
 !**/app.json
 !**/workspace.json
 
