@@ -6,10 +6,12 @@ Ext.define('STCDemo.view.main.List', {
     xtype: 'mainlist',
 
     requires: [
-        'STCDemo.store.Personnel'
+        'STCDemo.store.Personnel',
+        'STCDemo.view.main.ListVC'
     ],
 
     title: 'Personnel',
+    controller: 'listVC',
 
     store: {
         type: 'personnel'

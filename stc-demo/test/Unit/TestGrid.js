@@ -19,7 +19,6 @@ describe("TestGrid.js", function () {
     });
 
     it("should load grid", function () {
-
         Test.createGrid();
         ST.grid('mainlist').rowAt(2).click();
         ST.wait(1000);
