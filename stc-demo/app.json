@@ -46,7 +46,8 @@
      *      ]
      */
     "requires": [
-        "font-awesome"
+        "font-awesome",
+        "ux"
     ],
     /**
      * Fashion build configuration properties.

@@ -13,7 +13,12 @@
             "name": "E2E"
         },
         {
-            "libs": [],
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/stc-demo/test/data/personnel.js"
+                }
+            ],
             "coverageFilters": [],
             "sandbox": false,
             "globals": "*",

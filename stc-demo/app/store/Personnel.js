@@ -20,8 +20,8 @@ Ext.define('STCDemo.store.Personnel', {
              rootProperty: 'items'
          }
      }*/
-     
-    autoLoad: true,
+
+    //autoLoad: true,
     proxy: {
         type: 'ajax',
         url: 'data/personnel.json',
