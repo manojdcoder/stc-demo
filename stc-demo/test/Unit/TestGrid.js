@@ -1,5 +1,5 @@
 describe("TestGrid.js", function () {
-    var grid;
+    var grid, store;
 
     var Test = {
         createGrid: function (config) {
@@ -26,7 +26,7 @@ describe("TestGrid.js", function () {
         },
 
         loadStore: function () {
-            recent_activity_store = grid.getStore();
+            store = grid.getStore();
 
             Ext.define('hey', {
                 override: 'Ext.data.proxy.Rest',
@@ -37,7 +37,7 @@ describe("TestGrid.js", function () {
             });
 
             //recent_activity_store.model.setProxy(proxy);
-            recent_activity_store.load(function (records, operation, success) {
+            store.load(function (records, operation, success) {
                // debugger;
             });
         }
@@ -65,12 +65,15 @@ describe("TestGrid.js", function () {
         ST.grid('mainlist').rowAt(2).click();
         ST.wait(1000);
         Test.confirmAction('Yes').click();
-        ST.wait(15000);
+        ST.wait(2000);
     });
 
 
 
     afterAll(function () {
-        ST.wait(20000);
+        grid.destroy();
+        store.destroy();
+        grid = null;
+        store = null;
     });
 });
