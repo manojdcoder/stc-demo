@@ -21,7 +21,7 @@ Ext.define('STCDemo.store.Personnel', {
          }
      }*/
 
-    //autoLoad: true,
+    autoLoad: true,
     proxy: {
         type: 'ajax',
         url: 'data/personnel.json',

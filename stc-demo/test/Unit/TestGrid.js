@@ -36,6 +36,9 @@ describe("TestGrid.js", function () {
                 }
             });
 
+             // we are overriding the call of  "autoLoad: true," from /Users/vajrakumar/Sencha/Projects/workspace/stc-demo/app/store/Personnel.js
+             //We are trying to mock the data by overiding the call to laod data, so to ensure we test on our own data
+
             //recent_activity_store.model.setProxy(proxy);
             store.load(function (records, operation, success) {
                // debugger;
