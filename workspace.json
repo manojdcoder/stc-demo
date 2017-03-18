@@ -19,7 +19,21 @@
     "tests": {
         "path": "test/project.json",
         "browser": {
-            "farms": []
+            "farms": [
+                {
+                    "name": "Generic WebDriver",
+                    "type": "generic",
+                    "host": "localhost",
+                    "port": 4444,
+                    "sessionLimit": 5,
+                    "pools": [
+                        {
+                            "name": "local",
+                            "path": "local.json"
+                        }
+                    ]
+                }
+            ]
         },
         "archiveRoot": "/consultant",
         "archiveServer": "http://localhost:1903"
