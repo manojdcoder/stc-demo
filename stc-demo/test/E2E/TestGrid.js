@@ -16,4 +16,8 @@ describe("TestGrid", function () {
         ST.screenshot('grid-final');
 
     });
+
+    it('Should fail',function(){
+        expect(1).toBe(2);
+    });
 });
