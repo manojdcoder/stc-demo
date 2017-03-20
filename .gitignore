@@ -10,6 +10,7 @@
 !**/project.json
 !**/app.json
 !**/workspace.json
+!**local.json
 
 # bootstrap
 **/bootstrap.*

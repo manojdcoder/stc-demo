@@ -1,0 +1,8 @@
+[
+    {
+        "browserName": "chrome",
+        "sencha": {
+            "concurrency": 1
+        }
+    }
+]
