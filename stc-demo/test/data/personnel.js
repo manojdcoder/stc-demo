@@ -2,7 +2,7 @@ hardCodedData = window.hardCodedData || {};
 hardCodedData = {
     "items": [
         {
-            "name": "DUMMY--Jean Luc",
+            "name": "DUMMY--Jean Luce",
             "email": "jeanluc.picard@enterprise.com",
             "phone": "555-111-1111"
         },
